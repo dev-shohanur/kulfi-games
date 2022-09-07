@@ -1,0 +1,125 @@
+/* Common CSS Styles Strat  */
+section {
+    margin-bottom: 60px;
+}
+.section-bg {
+    background-color: #f5f8fd;
+}
+.p-tge-styles {
+    color: rgb(68, 68, 68);
+    font-family: 'Open Sans', sans-serif;
+}
+a {
+    color: #1bb1dc;
+    transition: 0.5s;
+}
+.a-tge-styles {
+    background-color: rgb(255, 255, 255);
+    transition: all 0.5s ease 0s;
+    font-family: 'Open Sans', sans-serif;
+}
+.socialIcon {
+    width: 50px;
+    margin: 10px;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+/* Common CSS Styles End  */
+
+/* NavBar Section CSS Styles Strat  */
+.kulfi-nav-link {
+    text-decoration: none;
+    padding: 20px;
+    color: rgb(68, 68, 68);
+}
+.kulfi-nav-link:hover {
+    color: #1bb1dc;
+}
+.kulfi-nav-link.active {
+    color: #1bb1dc;
+}
+/* NavBar Section CSS Styles End  */
+
+/* Hero Section CSS Styles Start  */
+
+
+/* Hero Section CSS Styles End  */
+
+/* About Section Styles Strat  */
+#about .row {
+    display: flex;
+    align-items: center;
+}
+
+#about .about-img {
+    position: relative;
+    margin: 30px;
+}
+
+#about .about-img::before {
+    position: absolute;
+    left: -31px;
+    top: -30px;
+    width: 90%;
+    height: 92%;
+    z-index: -1;
+    content: '';
+    background-color: #ebf1fa;
+    transition: .5s;
+}
+
+#about .about-img::after {
+    position: absolute;
+    right: -31px;
+    bottom: -30px;
+    width: 90%;
+    height: 92%;
+    z-index: -1;
+    content: '';
+    background-color: #ebf1fa;
+    transition: .5s;
+}
+
+#about .about-img img {
+    width: 100%;
+    border: 8px solid #fff;
+    transition: .5s;
+}
+/* About Section Styles End  */
+
+/* Footer Section CSS Styles Start  */
+#footer {
+    padding: 0 0 30px 0;
+    font-size: 14px;
+    background: #fff;
+}
+#footer .footer-top {
+    padding: 60px 0 30px 0;
+}
+#footer .footer-top .footer-links {
+    margin-bottom: 30px;
+}
+#footer .footer-top h4 {
+    font-size: 14px;
+    font-weight: bold;
+    color: #413e66;
+    text-transform: uppercase;
+    position: relative;
+    padding-bottom: 10px;
+}
+#footer .copyright {
+    text-align: center;
+    padding-top: 30px;
+    color: #535074;
+    font-size: 15px;
+}
+#footer .credits {
+    text-align: center;
+    font-size: 14px;
+    padding-top: 4px;
+    color: #8582a8;
+}
+/* Footer Section CSS Styles End  */
